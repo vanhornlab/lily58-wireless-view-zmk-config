@@ -74,11 +74,11 @@
 
         layer_3 {
             bindings = <
-&kp C_MUTE         &trans          &trans          &trans        &kp F4     &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&kp C_VOLUME_UP    &trans          &trans          &trans        &trans     &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&kp C_VOLUME_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans             &trans          &trans          &trans        &trans     &trans  &kp HOME    &kp END  &trans  &trans  &trans  &trans  &trans  &trans
-                                                   &kp K_CALC    &trans     &trans  &trans      &trans   &trans  &trans  &trans
+&kp C_MUTE         &trans          &trans          &trans            &kp F4     &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp C_VOLUME_UP    &trans          &trans          &trans            &trans     &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp C_VOLUME_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans             &trans          &trans          &trans            &trans     &trans  &kp HOME    &kp END  &trans  &trans  &trans  &trans  &trans  &trans
+                                                   &kp K_CALCULATOR  &trans     &trans  &trans      &trans   &trans  &trans  &trans
             >;
         };
     };
